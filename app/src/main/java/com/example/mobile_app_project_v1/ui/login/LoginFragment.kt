@@ -15,6 +15,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.ProgressBar
 import android.widget.Toast
+import androidx.navigation.findNavController
 import com.example.mobile_app_project_v1.databinding.FragmentLoginBinding
 
 import com.example.mobile_app_project_v1.R
@@ -35,6 +36,8 @@ class LoginFragment : Fragment() {
     ): View? {
 
         _binding = FragmentLoginBinding.inflate(inflater, container, false)
+
+
         return binding.root
 
     }
@@ -72,6 +75,8 @@ class LoginFragment : Fragment() {
                 }
                 loginResult.success?.let {
                     updateUiWithUser(it)
+                    view.findNavController()
+                        .navigate(R.id.action_login_to_home)
                 }
             })
 
@@ -113,7 +118,7 @@ class LoginFragment : Fragment() {
     }
 
     private fun updateUiWithUser(model: LoggedInUserView) {
-        val welcome = getString(R.string.welcome) + model.displayName
+        val welcome = getString(R.string.welcome) //+ model.displayName
         // TODO : initiate successful logged in experience
         val appContext = context?.applicationContext ?: return
         Toast.makeText(appContext, welcome, Toast.LENGTH_LONG).show()
