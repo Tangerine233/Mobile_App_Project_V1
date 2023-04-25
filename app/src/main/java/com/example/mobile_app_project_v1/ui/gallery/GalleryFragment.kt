@@ -35,7 +35,6 @@ class GalleryFragment : Fragment() {
             textView.text = it
         }
 
-        
         return root
     }
 

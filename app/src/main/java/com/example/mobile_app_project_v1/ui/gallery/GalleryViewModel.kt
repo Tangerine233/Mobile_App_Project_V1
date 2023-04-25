@@ -10,4 +10,5 @@ class GalleryViewModel : ViewModel() {
         value = "Welcome"
     }
     val text: LiveData<String> = _text
+
 }
