@@ -30,13 +30,20 @@ class GalleryFragment : Fragment() {
         //val galleryViewModel =
          //   ViewModelProvider(this).get(GalleryViewModel::class.java)
 
-        _binding = FragmentGalleryBinding.inflate(inflater, container, false)
+        /*_binding = FragmentGalleryBinding.inflate(inflater, container, false)
 
-        return binding.root
+        return binding.root*/
+
+        var v = inflater.inflate(R.layout.fragment_gallery, container, false)
+
+        var pdf = v.findViewById<PDFView>(R.id.pdfview)
+        pdf.fromAsset("Davis_Lab_1_Report.pdf").load()
+
+        return v
     }
 
-    override fun onDestroyView() {
+    /*override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
-    }
+    }*/
 }
