@@ -35,7 +35,16 @@ class GalleryFragment : Fragment() {
             textView.text = it
         }
 
-        
+        binding.Syllabus.setOnClickListener{ view : View ->
+            view.findNavController().navigate(R.id.syllabusFragment)
+        }
+        binding.LabReportInstructions.setOnClickListener{ view : View ->
+            view.findNavController().navigate(R.id.labReportInstructions)
+        }
+        binding.ProjectInstructions.setOnClickListener{ view : View ->
+            view.findNavController().navigate(R.id.projectInstructions)
+        }
+
         return root
     }
 
