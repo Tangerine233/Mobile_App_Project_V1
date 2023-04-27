@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.learning_modules.LearningModulesFragment">
+
+        <Button
+            android:id="@+id/l1"
+            android:layout_width="268dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="52dp"
+            android:text="LM1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/l2"
+            android:layout_width="268dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="10dp"
+            android:text="LM2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/l1" />
+
+        <Button
+            android:id="@+id/l3"
+            android:layout_width="268dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="10dp"
+            android:text="LM3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/l2" />
+
+        <Button
+            android:id="@+id/l4"
+            android:layout_width="268dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="10dp"
+            android:text="LM4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/l3" />
+
+        <Button
+            android:id="@+id/l5"
+            android:layout_width="268dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="10dp"
+            android:text="LM5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/l4" />
+
+        <Button
+            android:id="@+id/l6"
+            android:layout_width="268dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="10dp"
+            android:text="LM6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/l5" />
+
+        <Button
+            android:id="@+id/l7"
+            android:layout_width="268dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="10dp"
+            android:text="LM7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/l6" />
+
+        <Button
+            android:id="@+id/l8"
+            android:layout_width="268dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="10dp"
+            android:text="LM8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/l7" />
+
+        <Button
+            android:id="@+id/l9"
+            android:layout_width="268dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="10dp"
+            android:text="LM9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/l8" />
+
+        <Button
+            android:id="@+id/l10"
+            android:layout_width="268dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="10dp"
+            android:text="LM10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/l9" />
+
+        <Button
+            android:id="@+id/l11"
+            android:layout_width="268dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="10dp"
+            android:text="LM11"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/l10" />
+
+        <Button
+            android:id="@+id/l12"
+            android:layout_width="268dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="10dp"
+            android:text="LM12"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/l11" />
+
+        <Button
+            android:id="@+id/l13"
+            android:layout_width="268dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="10dp"
+            android:text="LM13"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/l12" />
+
+        <TextView
+            android:layout_width="268dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/l12" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
