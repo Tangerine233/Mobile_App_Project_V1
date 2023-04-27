@@ -10,6 +10,7 @@
     <color name="white">#FF000000</color>
 
     <color name="ksu_back">#ffd428</color>
+    <color name="Module_Back_color">#ffd428</color>
 
 
 </resources>
