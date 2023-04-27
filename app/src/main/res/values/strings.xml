@@ -10,6 +10,7 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Start Here</string>
     <string name="menu_slideshow">Learning Modules</string>
+    <string name="submodule">Module</string>
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
@@ -23,4 +24,10 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="syllabus">Syllabus</string>
+    <string name="download_pdf">Download PDF</string>
+    <string name="Syllabus">Syllabus</string>
+    <string name="LabReportInstructions">Lab Report Instructions</string>
+    <string name="ProjectInstructions">Project Instructions</string>
+    <string name="download_doc">Download doc</string>
 </resources>
