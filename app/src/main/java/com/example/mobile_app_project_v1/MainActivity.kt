@@ -20,11 +20,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     companion object{
         var submoduleNumber : Int = 55
-        @JvmName("setSubmoduleNumber1")
-        fun setSubmoduleNumber(i : Int){
-            submoduleNumber = i
-
-        }
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {

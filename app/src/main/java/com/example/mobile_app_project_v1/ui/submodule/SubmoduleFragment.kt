@@ -1,5 +1,7 @@
 package com.example.mobile_app_project_v1.ui.submodule
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -20,9 +22,11 @@ class SubmoduleFragment : Fragment()  {
 
     // This property is only valid between onCreateView and
     // onDestroyView.
-    private val binding get() = _binding!!a
+    private val binding get() = _binding!!
 
-    var model : Int = 0
+
+    val labLinks = Array(13){i -> "https://developer.android.com/courses/pathways/android-development-with-kotlin-".plus(i.toString())}
+
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -37,9 +41,11 @@ class SubmoduleFragment : Fragment()  {
         val root: View = binding.root
 
         binding.slide.setOnClickListener {
-            print(MainActivity.submoduleNumber)
+            //TODO open slide base on the chosed submodule
         }
         binding.lab.setOnClickListener {
+            val i = Intent(Intent.ACTION_VIEW, Uri.parse(labLinks[MainActivity.submoduleNumber]))
+            startActivity(i)
         }
 
         return root
