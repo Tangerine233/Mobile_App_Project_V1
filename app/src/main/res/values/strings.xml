@@ -29,4 +29,17 @@
     <string name="LabReportInstructions">Lab Report Instructions</string>
     <string name="ProjectInstructions">Project Instructions</string>
     <string name="download_doc">Download doc</string>
+    <string name="kotlin_lab_1">Kotlin_lab_1</string>
+    <string name="kotlin_lab_2">kotlin_lab_2</string>
+    <string name="kotlin_lab_3">kotlin_lab_3</string>
+    <string name="kotlin_lab_4">kotlin_lab_4</string>
+    <string name="kotlin_lab_9">kotlin_lab_9</string>
+    <string name="kotlin_lab_5">kotlin_lab_5</string>
+    <string name="kotlin_lab_6">kotlin_lab_6</string>
+    <string name="kotlin_lab_7">kotlin_lab_7</string>
+    <string name="kotlin_lab_8">kotlin_lab_8</string>
+    <string name="kotlin_lab_10">kotlin_lab_10</string>
+    <string name="kotlin_lab_11">kotlin_lab_11</string>
+    <string name="kotlin_lab_12">kotlin_lab_12</string>
+    <string name="kotlin_lab_13">kotlin_lab_13</string>
 </resources>
