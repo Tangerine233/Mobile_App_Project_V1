@@ -2,9 +2,12 @@
 <resources>
     <color name="purple_200">#ffc629</color>
     <color name="purple_500">#ffd428</color>
-    <color name="purple_700">#cca920</color>
+    <color name="purple_700">#ffd428</color>
     <color name="teal_200">#a5881a</color>
     <color name="teal_700">#977d17</color>
     <color name="black">#FFFFFFFF</color>
     <color name="white">#FF000000</color>
+
+    <color name="ksu_back">#ffd428</color>
+
 </resources>
