@@ -10,6 +10,7 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Start Here</string>
     <string name="menu_slideshow">Learning Modules</string>
+    <string name="submodule">Module</string>
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
