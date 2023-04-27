@@ -15,8 +15,8 @@
             app:destination="@id/nav_gallery" />
 
         <action
-            android:id="@+id/action_nav_home_to_nav_slideshow"
-            app:destination="@id/nav_slideshow" />
+            android:id="@+id/action_nav_home_to_learning_modules"
+            app:destination="@id/learningModules" />
     </fragment>
 
     <fragment
@@ -35,15 +35,11 @@
             app:destination="@id/projectInstructions" />
     </fragment>
 
-    <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.mobile_app_project_v1.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+
     <fragment
         android:id="@+id/loginFragment"
         android:name="com.example.mobile_app_project_v1.ui.login.LoginFragment"
-        android:label="fragment_login"
+        android:label="Login"
         tools:layout="@layout/fragment_login">
         <action
             android:id="@+id/action_login_to_home"
@@ -61,4 +57,20 @@
         android:id="@+id/projectInstructions"
         android:name="com.example.mobile_app_project_v1.pages.ProjectInstructions"
         android:label="ProjectInstructions" />
+
+    <fragment
+        android:id="@+id/learningModules"
+        android:name="com.example.mobile_app_project_v1.ui.learning_modules.LearningModulesFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_learning_modules" >
+        <action
+            android:id="@+id/action_nav_learning_modules_to_submodule"
+            app:destination="@id/submodule" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/submodule"
+        android:name="com.example.mobile_app_project_v1.ui.submodule.SubmoduleFragment"
+        android:label="@string/submodule" />
+
 </navigation>

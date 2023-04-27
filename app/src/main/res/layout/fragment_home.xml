@@ -10,7 +10,7 @@
         android:id="@+id/LearningModules"
         android:layout_width="389dp"
         android:layout_height="82dp"
-        android:text="Learning Modules"
+        android:text="learning Modules"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.727"

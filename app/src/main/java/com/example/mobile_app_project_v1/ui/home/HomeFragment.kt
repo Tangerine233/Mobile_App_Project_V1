@@ -10,7 +10,6 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import androidx.navigation.findNavController
 import com.example.mobile_app_project_v1.R
-import com.example.mobile_app_project_v1.databinding.ActivityMainBinding
 import com.example.mobile_app_project_v1.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
@@ -38,7 +37,8 @@ class HomeFragment : Fragment() {
             view.findNavController().navigate(R.id.action_nav_home_to_nav_gallery)
         }
         binding.LearningModules.setOnClickListener { view : View ->
-            view.findNavController().navigate(R.id.action_nav_home_to_nav_slideshow)
+//            view.findNavController().navigate(R.id.action_nav_home_to_nav_slideshow)
+            view.findNavController().navigate(R.id.action_nav_home_to_learning_modules)
         }
 //
 //        setHasOptionsMenu(true)
