@@ -62,5 +62,15 @@
         android:id="@+id/learningModules"
         android:name="com.example.mobile_app_project_v1.ui.learning_modules.LearningModulesFragment"
         android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_learning_modules" />
+        tools:layout="@layout/fragment_learning_modules" >
+        <action
+            android:id="@+id/action_nav_learning_modules_to_submodule"
+            app:destination="@id/submodule" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/submodule"
+        android:name="com.example.mobile_app_project_v1.ui.submodule.SubmoduleFragment"
+        android:label="@string/submodule" />
+
 </navigation>
