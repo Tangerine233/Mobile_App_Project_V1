@@ -8,15 +8,39 @@
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_gallery">Start Here</string>
+    <string name="menu_slideshow">Learning Modules</string>
+    <string name="submodule">Module</string>
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
-    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in">Sign in</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="welcome">"Welcome!"</string>
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_test">test</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="syllabus">Syllabus</string>
+    <string name="download_pdf">Download PDF</string>
+    <string name="Syllabus">Syllabus</string>
+    <string name="LabReportInstructions">Lab Report Instructions</string>
+    <string name="ProjectInstructions">Project Instructions</string>
+    <string name="download_doc">Download doc</string>
+    <string name="kotlin_lab_1">Kotlin_lab_1</string>
+    <string name="kotlin_lab_2">kotlin_lab_2</string>
+    <string name="kotlin_lab_3">kotlin_lab_3</string>
+    <string name="kotlin_lab_4">kotlin_lab_4</string>
+    <string name="kotlin_lab_9">kotlin_lab_9</string>
+    <string name="kotlin_lab_5">kotlin_lab_5</string>
+    <string name="kotlin_lab_6">kotlin_lab_6</string>
+    <string name="kotlin_lab_7">kotlin_lab_7</string>
+    <string name="kotlin_lab_8">kotlin_lab_8</string>
+    <string name="kotlin_lab_10">kotlin_lab_10</string>
+    <string name="kotlin_lab_11">kotlin_lab_11</string>
+    <string name="kotlin_lab_12">kotlin_lab_12</string>
+    <string name="kotlin_lab_13">kotlin_lab_13</string>
 </resources>

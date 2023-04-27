@@ -7,6 +7,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.findNavController
+import com.example.mobile_app_project_v1.R
 import com.example.mobile_app_project_v1.databinding.FragmentGalleryBinding
 
 class GalleryFragment : Fragment() {
@@ -28,10 +30,21 @@ class GalleryFragment : Fragment() {
         _binding = FragmentGalleryBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textGallery
+        val textView: TextView = binding.Welcome
         galleryViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }
+
+        binding.Syllabus.setOnClickListener{ view : View ->
+            view.findNavController().navigate(R.id.syllabusFragment)
+        }
+        binding.LabReportInstructions.setOnClickListener{ view : View ->
+            view.findNavController().navigate(R.id.labReportInstructions)
+        }
+        binding.ProjectInstructions.setOnClickListener{ view : View ->
+            view.findNavController().navigate(R.id.projectInstructions)
+        }
+
         return root
     }
 
